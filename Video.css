@@ -5,11 +5,18 @@
     column-gap: 16px;
     row-gap: 20px;
 }
+@media (min-width:400px) {
+    .video-grid{
+       display: none;
+    }
+}
+
 @media (max-width:750px) {
     .video-grid{
         grid-template-columns: 1fr 1fr;
     }
 }
+
 @media (min-width:751px) and (max-width:999px) {
     .video-grid{
         grid-template-columns: 1fr 1fr 1fr;
